@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Videos</title>
+</head>
+<body>
+<div>
+    <ul>
+  <a href="index.html"><li>Home</li></a>
+  <a href="references.html"><li>References</li></a>
+  <a href="about.html"><li>About</li></a>
+    </ul>
+</div>
+
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css" rel="stylesheet">
+<link href="videos.css" rel="stylesheet">
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
+
+<script>
+  $( document ).ready(function() {
+	$('#headerVideoLink').magnificPopup({
+	type:'inline',
+	midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+	});
+});
+   
+</script>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <h1 class="text-center display-4 mt-5">
+      Konfigurimi i Serverave Http 
+      </h1>
+      <p class="text-center mt-5">
+        <a href="#headerPopup" id="headerVideoLink" target="_blank" class="btn btn-outline-danger popup-modal">Konfigurimi </a>
+      </p>
+     <div id="headerPopup" class="mfp-hide embed-responsive embed-responsive-21by9">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/aHckvxG0juI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="linket">
+    <a class="linka1" href="vsrouter.html"><span>Konfigurimi i Rrugeve Statike te Ruterave</span></a>
+    <a class="linka1" href="vrouter.html"><span>Konfigurimi i Ruterave</span></a>
+    <a class="linka1" href="vdns.html"><span>Konfigurimi i Serverave DNS</span></a>
+    <a class="linka1" href="vswitch.html"><span>Konfigurimi i Switcheve</span></a>
+    <a class="linka1" href="vpc.html"><span>Konfigurimi i Kompiuterave</span></a>
+  </div>
+</body>
+</html>
