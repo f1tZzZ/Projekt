@@ -1,0 +1,137 @@
+body {
+background: rgb(212,136,71);
+background: linear-gradient(90deg, rgba(212,136,71,1) 3%, rgba(60,126,107,1) 47%, rgba(122,170,177,1) 96%);
+}
+
+.maindiv {
+	width: 65%;
+	background-color: white;
+	height: auto;
+	margin-top: 100px;
+	box-shadow: 20px 20px 20px rgb(28,27,27);
+	padding: 50px 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+h1 {
+
+	color: white;
+	font-family: Verdana;
+	font-weight: 600;
+	font-size: 50px;
+}
+
+h2, h1 {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 45px;
+	letter-spacing: 1px;
+	word-spacing: 2.2px;
+	color: white;
+	font-weight: 600;
+}
+
+ul {
+	width: 100%;
+	padding: 20px;
+	top: 0px;
+	text-align: center;
+	transition: .5s;
+	margin-bottom: 50px;
+}
+ul li {
+	list-style-type: none;
+	display:inline-block;
+   	padding: 10px 50px;
+   	color: white;
+   	font-size: 24px;
+   	font-family: sans-serif;
+   	cursor: pointer;
+   	border-radius:3px;
+   	transition: .5s;
+   	font-weight: 650;
+}
+
+ul li:hover {
+	  transform: scale(1.5); /* 150% zoom */
+}
+
+hr {
+	width: 7%;
+	height: 5px;
+	background-color: white;
+}
+
+.divibrendshem {
+	width: 100%;
+	height: 350px;
+	background-image: url(1.jpg);
+	background-size: cover;
+	margin-bottom: 50px;
+}
+
+ol {
+	list-style-type: none;
+}
+
+.para1, .eliste, .para3{
+	margin-left: 30%;
+    font-family: "Lucida Console", Monaco, monospace;
+	font-size: 20px;
+	font-weight: 600;
+	color: #565554;
+}
+
+
+
+.para2 {
+	width: 90%;
+	font-size: 20px;
+    font-family: Noto Sans, sans-serif;
+    margin-left: 5%;
+}
+
+iframe {
+margin-left: 17%;
+border: solid black;
+margin-bottom: 8%;
+margin-top: 8%;
+}
+
+.dow1 {
+	border: solid #716E6C;
+	border-radius: 10px;
+	width: 30%;
+	height: 50px;
+	padding-top: 10px;
+	box-shadow: 10px 10px 10px rgb(28,27,27);
+	margin-top: 30px;
+	font-family: "Lucida Console", Monaco, monospace;
+	letter-spacing: 1px;
+}
+
+a {
+	text-decoration: none;
+	color: #EA3A06;
+}
+
+.para3 {
+	width: 80%;
+	margin-left: 15%;
+	margin-top: 7%;
+	margin-bottom: 5%;
+}
+
+i {
+	border: solid white;
+	width: 3%;
+	height: 30px;
+	border-radius: 10px;
+	float: right;
+	margin-right: 5%;
+	margin-top: -5%;
+	padding-left: 25px;
+	padding-top: 10px;
+	color: white;
+}

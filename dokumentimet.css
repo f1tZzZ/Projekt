@@ -1,0 +1,55 @@
+ul {
+	width: 100%;
+	padding: 20px;
+	top: 0px;
+	text-align: center;
+	transition: .5s;
+	margin-bottom: 15px;
+}
+ul li {
+	list-style-type: none;
+	display:inline-block;
+   	padding: 10px 50px;
+   	color: white;
+   	font-size: 24px;
+   	font-family: sans-serif;
+   	cursor: pointer;
+   	border-radius:3px;
+   	transition: .5s;
+   	font-weight: 650;
+}
+
+ul li:hover {
+	  transform: scale(1.5); /* 150% zoom */
+}
+
+body {
+background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	color: white;
+    border: solid white;
+    width: 20%;
+    height: 50px;
+    position: relative;
+    margin-top: 5%;
+    font-family: "Lucida Console", Monaco, monospace;
+    padding-top: 15px;
+    transition: .5s;
+}
+
+hr {
+	width: 65%;
+	float: center;
+	margin-top: 20px;
+}
+
+h1:hover {
+	transform: scale(1.2); /* 120% zoom */
+  	transition: .5s;
+}

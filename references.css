@@ -1,0 +1,64 @@
+body {
+background: rgb(96,85,82);
+background: linear-gradient(90deg, rgba(96,85,82,1) 0%, rgba(168,118,108,1) 15%, rgba(193,108,91,1) 33%, rgba(226,103,79,1) 50%, rgba(179,102,86,1) 71%, rgba(156,106,96,1) 86%, rgba(92,82,80,1) 100%);
+}
+
+ul {
+	width: 100%;
+	padding: 20px;
+	top: 0px;
+	text-align: center;
+	transition: .5s;
+	margin-bottom: 15px;
+}
+ul li {
+	list-style-type: none;
+	display:inline-block;
+   	padding: 10px 50px;
+   	color: white;
+   	font-size: 24px;
+   	font-family: sans-serif;
+   	cursor: pointer;
+   	border-radius:3px;
+   	transition: .5s;
+   	font-weight: 650;
+}
+
+ul li:hover {
+	  transform: scale(1.5); /* 150% zoom */
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	color: white;
+    border: solid white;
+    width: 20%;
+    height: 50px;
+    position: relative;
+    margin-top: 10%;
+    font-family: "Lucida Console", Monaco, monospace;
+    padding-top: 15px;
+}
+
+hr {
+	width: 65%;
+	float: center;
+	margin-top: 20px;
+}
+
+h2 {
+	color: white;
+	margin-top: 100px;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 25px;
+	letter-spacing: 1px;
+	word-spacing: 2.2px;
+	width: 50%;
+}
+
+.hrfund {
+	margin-top: 5%;
+}
